@@ -3,6 +3,7 @@ import './App.css';
 import Menu from "./Menu";
 
 function App() {
+
     const menu = ['Catalog', 'Main page', 'Q&A', 'Reviews'];
 
   return (

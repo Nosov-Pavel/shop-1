@@ -1,7 +1,9 @@
 function Menu(props){
     return(
         <div>
-            {props.name}
+            <ul>
+            {props.name.map(el=> <li>{el}</li>)}
+            </ul>
 
         </div>
 
