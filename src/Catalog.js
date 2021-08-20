@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 function Catalog(props){
     return(
-        <div>
+        <div className='wrapper'>
             <h2>{props.catalog}</h2>
             {props.product.map(el =><ProductCard product={el}/>)}
 
