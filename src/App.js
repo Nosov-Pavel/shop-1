@@ -5,6 +5,7 @@ import sharpener from './Images/sharpener.jpeg';
 import eraser from './Images/eraser.jpeg';
 import Menu from "./Menu";
 import Catalog from "./Catalog";
+import logo from './Images/логотип i am who i am.jpg';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="App">
      <h1>SHOP</h1>
-        <img src={pen}/>
+        <img src={logo}/>
         <Menu name={menu}/>
         <Catalog catalog={catalogName} product={cards}/>
     </div>
