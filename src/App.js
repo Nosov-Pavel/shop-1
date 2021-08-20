@@ -11,7 +11,7 @@ function App() {
     const menu = ['Catalog', 'Main page', 'Q&A', 'Reviews'];
     const catalogName = 'Catalog';
     const cards = [{prodName: 'pen', img: pen, price: 3 },
-        {prodName: 'pencil', img: pen, price: 2 },
+        {prodName: 'pencil', img: pencil, price: 2 },
         {prodName: 'sharpener', img: sharpener, price: 5 },
         {prodName: 'eraser', img: eraser, price: 1 } ]
 
