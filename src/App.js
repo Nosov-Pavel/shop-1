@@ -15,13 +15,14 @@ function App() {
         {prodName: 'pencil', img: pencil, price: 2 },
         {prodName: 'sharpener', img: sharpener, price: 5 },
         {prodName: 'eraser', img: eraser, price: 1 } ]
+    const buyButtonLabel = 'Bay';
 
   return (
     <div className="App">
      <h1>SHOP</h1>
         <img src={logo}/>
         <Menu name={menu}/>
-        <Catalog catalog={catalogName} product={cards}/>
+        <Catalog catalog={catalogName} product={cards} buyButtonLabel={buyButtonLabel}/>
     </div>
   );
 }

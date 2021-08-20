@@ -2,9 +2,9 @@ function Quantity(props){
     return(
         <div>
             <button>-</button>
-            <p>1</p>
+            1
             <button>+</button>
-            <button>Buy</button>
+            <button>{props.buyButtonLabel}</button>
         </div>
 
     );
