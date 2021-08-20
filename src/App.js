@@ -20,7 +20,7 @@ function App() {
      <h1>SHOP</h1>
         <img src={pen}/>
         <Menu name={menu}/>
-        <Catalog catalog={catalogName}/>
+        <Catalog catalog={catalogName} product={cards}/>
     </div>
   );
 }
